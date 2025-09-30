@@ -19,3 +19,6 @@
 
 1. 사용한 로봇팔의 각도는 turtlebot3_manupulate_angle.png를 토대로 구상했습니다.
 2. ~/finalPJ_code/rokeyracing_ws/src/turtlebot3_autorace_camera/calibration/extrinsic_calibration 경로에 존재하는 .yaml 파일에 c-2조 로봇 설정에 사용한 카메라 파라미터 값이 compensation.yaml, projection.yaml로 설정되어 있습니다.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
