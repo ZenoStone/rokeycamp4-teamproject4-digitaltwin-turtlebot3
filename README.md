@@ -1,12 +1,20 @@
 # rokeycamp4-teamproject4-digitaltwin-turtlebot3
 로키 부트캠프 4기 협동3 프로젝트 결과물 입니다
 
-# 코드 작성 내용
+turtlebot3 waffle 모델에 manipulator가 설치된 모델을 사용하여 구성된 프로젝트 입니다
+사용한 turtlebot3는 Jetson Nano가 설치된 모델입니다
 
-우선 각 코드 별로 어떤 ws 폴더 상의 어디에 존재하는지 폴더 구조를 그대로 담아 수정한 부분만 기입했습니다.
+turtlebot3 waffle 모델을 사용하여 제한된 공간에서 라인 트레이싱을 통한 주행을 바탕으로
+정의된 아르코 마커를 로봇의 manipulator에 달린 카메라가 감지하면 신호등 혹은 차단기 인식을 진행합니다
 
-터틀봇3 waffle 모델에서 동작한 코드이며.
-각 코드는 첨부된 폴더 구조대로 구상하면 동작이 가능합니다.
+> 아르코 마커 ID 0 : 신호등
+> 아르코 마커 ID 1 : 차단기
+
+
+포함된 ros2 패키지는 turtlebot3 Jetson Nano에 파일구조를 생성한 다음에 turtlebot3에서 구동해야 합니다
+
+본 프로젝트는 rokeypj_ws에 구성된 하나의 aruco_yolo.launch.py를 실행해서 모든 동작을 수행할 수 있습니다
+
 
 # 실행 방법
 1. 첨부된 rokeypj_ws와 rokeyracing_ws를 사용자의 홈 디렉토리에 배치.
